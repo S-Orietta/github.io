@@ -1,0 +1,297 @@
+*{
+    font-family:Serif;
+    
+}
+
+p{
+    margin:0;
+}
+
+
+
+header{
+    height:60px;
+    width:100%;
+    background-color:#eee8aa;
+}
+
+header a{
+    text-align:center;
+    display:block;
+    margin:0 auto;
+}
+
+header img{
+    height:60px;
+    width:60px;    
+}
+
+
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 15px 15px;
+    margin: 0 auto;
+    
+    text-align:center;
+  }
+
+.top{
+    height:600px;
+    width:100%;
+    opacity:0.7;
+    background-size:cover;
+    background-position:center center;
+    padding:30px 0px;
+}
+
+.top-container{
+    position:absolute;
+    z-index:10;
+}
+
+.top h2{
+    text-align:center;
+    line-height:0px;
+    margin-top:200px;
+    color:white;
+    font-family:Serif;
+    font-size:100px;
+    text-shadow: 0px 0px 5px black;
+    
+    
+}
+
+.top h4{
+    text-shadow: 0px 0px 5px black,0px 0px 5px black, 0px 0px 5px black;
+}
+
+.top p{
+    text-shadow: 0px 0px 5px black,0px 0px 5px black, 0px 0px 5px black;
+}
+
+.top{
+    text-align:center;
+    color:white;
+    font-family:Serif;
+    font-size:20px;
+    text-shadow: 0px 0px 5px black;
+}
+
+.bg-image {
+    width: 100%;
+    height: 660px;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    z-index:-1;
+    background-size: cover;
+    background-position: center;
+    display: none; /* 初期状態では非表示に設定 */
+}
+
+.introduce{
+    height:700px;
+    width:100%;
+    border-top:50px solid #eee8aa;
+    background-color:white;
+    padding:30 0px;
+    background-image:url(images/20231011_103217.png);
+    opacity:0.7;
+    background-size:cover;
+    background-position:bottom;
+}
+
+.introduce-text{
+    width:600px;
+    margin-top:120px;
+    margin-left:auto;
+    margin-right:0px;   
+    
+}
+
+.introduce h3{
+    text-align:center;
+    font-size:30px;
+    color:#333;
+    text-shadow:0 0 10px white;
+}
+
+
+
+.gif-video{
+    text-align:right;
+    margin-right:25px;
+    margin-top:120px;
+    
+}
+
+.items{
+    height:800px;
+    width:100%;
+    background-image:url(images/concrete_background_image.jpg);
+    background-size:cover;
+    background-color:rgba(255,255,255,0.7);
+    background-blend-mode: lighten;
+    padding:30 0px;
+    position:relative;
+}
+
+.breads{
+    width:600px;
+    height:600px;
+    position:relative;
+    float:left;
+    background-image:url(images/P1140152_R.jpg);
+    background-size:cover;   
+    box-shadow:0px 2px 10px 5px gray;
+}
+
+.clickInfo{
+    margin-bottom:10px;
+}
+
+.absolute{
+    position:absolute;
+}
+
+.peti{
+    
+    bottom:30px;
+    left:220px;
+}
+
+.chocola{
+    
+    top:60px;
+    left:410px;
+}
+
+.btn{
+	display:block;
+}
+
+.btn:hover{
+	opacity:1.0;
+    transform:scale(1.1);
+    transition:0.5s;
+}
+
+.bread-info{
+    float:left;
+    position:relative;
+    height:600px;
+    width:500px;
+    top:;
+    margin-left:20px;
+
+    background-color:white;
+    box-shadow:0px 2px 10px 5px gray;
+   
+}
+
+h5{
+    font-size:30px;
+    line-height:0;
+}
+
+h6{
+    font-size:15px;
+    line-height:5px;
+}
+
+.peti-info{
+    height:600px;
+    width:500px;   
+    background-color:white;
+    background-position:bottom;
+    display:none;
+    
+}
+
+.chocola-info{
+    height:600px;
+    width:500px;
+    background-color:white;
+    background-position:bottom;
+    display:none;
+    
+}
+
+.info-active{
+    display:block;
+    transition:;
+}
+
+.peti-info img{
+    width:500px;
+}
+
+.access{
+    height:650px;
+    width:100%;
+    background-color:ivory;
+    padding:30px 0;
+    position:relative;
+    
+}
+
+.access img{
+    height:400px;
+    width:;
+    float:left;
+    position:;
+    margin-top:40px;
+    margin-right:auto;
+    margin-left:100px;
+}
+
+iframe{
+    float:left;
+    margin-top:20px;
+    margin-left:40px;
+    margin-right:auto;
+    margin-left:100px;
+}
+
+.contact{
+    height:600px;
+    width:100%;
+    background-image:url(images/wood_wall.jpg);
+    background-size:cover;
+    background-color:rgba(10,10,10,0.5);
+    background-blend-mode:darken;
+    padding:30px 0;
+    color:lightgray;
+}
+
+.contact h2{
+    color:lightgray;
+}
+
+.QR{
+    margin-top:20px;
+    width:200px;
+}
+
+
+
+footer{
+    height:100px;
+    width:100%;
+    background-color:#eee8aa;
+    padding:5px 0;
+}
+
+footer img{
+    padding-top:10px;
+    width:60px;
+    display:block;
+    margin:0 auto;
+}
+
+footer p{
+    color:#555;
+    text-align:center;
+}
