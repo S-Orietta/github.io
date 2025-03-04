@@ -22,7 +22,8 @@ $(function(){
 $(document).ready(function() {
   var images = [
       'url("images/P1030021.JPG")',
-      'url("images/P1030002_edit.jpg")'
+      'url("images/P1030053.jpg")',
+      'url("images/P1030006.JPG")'
       // ここに他の画像のURLを追加できます
   ];
 
@@ -36,5 +37,5 @@ $(document).ready(function() {
           $bgImages.eq(currentIndex).fadeOut(1000);
           currentIndex = nextIndex;
       });
-  }, 5000); // 画像を切り替える間隔（ミリ秒）
+  }, 4000); // 画像を切り替える間隔（ミリ秒）
 });
