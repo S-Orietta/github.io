@@ -22,7 +22,7 @@ $(function(){
 $(document).ready(function() {
   var images = [
       'url("images/P1030021.JPG")',
-      'url("images/P1030006.jpg")',
+      'url("images/P1030006.JPG")',
       'url("images/P1030053.JPG")'
       // ここに他の画像のURLを追加できます
   ];
